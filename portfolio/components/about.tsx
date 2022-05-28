@@ -30,6 +30,7 @@ export default function about (){
             <p>
                 ご気軽にお問い合わせください。
             </p>
+            <a href="mailto:">mail kuuumaaaa520@gmail.com</a>
         </div>
     )
 }
