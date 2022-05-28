@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
+import Navbar from '../components/navbar'
 
 import styles from '../styles/Home.module.css'
 
@@ -18,23 +18,7 @@ export default function layout ({ children }) {
                 <p>
                     Kuma Portfolio
                 </p>
-                <nav className={styles.headerNav}>
-                <Link href="/">
-                    <a>
-                        Works
-                    </a>
-                </Link>
-                <Link href="/about">
-                    <a>
-                        About
-                    </a>
-                </Link>
-                <Link href="/contact">
-                    <a>
-                        Contact
-                    </a>
-                </Link>
-                </nav>
+                {/* <Navbar /> */}
             </header>
 
 

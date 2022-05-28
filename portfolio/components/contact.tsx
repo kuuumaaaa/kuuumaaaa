@@ -4,9 +4,6 @@ import Image from 'next/image';
 import { FacebookShareButton,LinkedinShareButton,EmailShareButton } from 'react-share';
 import { FacebookIcon,LinkedinIcon,EmailIcon } from 'react-share';
 
-import styles from '../styles/icon.css';
-
-
 export const Contact = () => {
     return(
         <div className="flex justify-center list-none">
